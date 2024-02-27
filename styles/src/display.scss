@@ -1,0 +1,21 @@
+@mixin opacity($str) {
+  opacity: #{$str}; 
+}
+.inline-block {
+  display: inline-block !important;
+}
+.opacity-hover:hover {
+  @include opacity('0.8');
+}
+.z-9999 {
+  z-index: 9999;
+}
+.overflow-x {
+  overflow-x: hidden !important;
+}
+.overflow-y {
+  overflow-y: hidden !important;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}

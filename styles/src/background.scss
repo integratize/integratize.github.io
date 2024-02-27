@@ -1,0 +1,130 @@
+$path: "/images/backgrounds";
+$_light: rgb(255,255,255);
+$_dark: rgb(0,0,0);
+$dark: #1F1C24;
+$primary: #5A23C8;
+$info: #0D6EFD;
+$warning: #D1872E;
+$danger: #731A4E;
+$master: #513D7D;
+$custom-colors: (
+  "master": $master,
+  "regular": #3D3846,
+  "medium": #F0F2F5
+);
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+.bg-img-none {
+  background-image: none !important;
+  background: none !important;
+}
+.bg-light-blur {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.bg-blur,
+.bg-light-blur {
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important;
+}
+.bg-gradient-1 {
+  background: linear-gradient(120deg, #4400AA 0%, #8800AA 100%) !important;
+}
+.bg-footer {
+  background-image: url("#{$path}/footer.svg");
+}
+.bg-sheets {
+  background-image: url("#{$path}/sheets.png");
+}
+.bg-grid {
+  background-image: url("#{$path}/grid.png");
+}
+.bg-blockchain {
+  background-image: url("#{$path}/blockchain.png");
+}
+.bg-fixed {
+  background-attachment: fixed !important;
+}
+.bg-left-top {
+  background-position: left top !important;
+}
+.bg-left {
+  background-position: left center !important;
+}
+.bg-left-bottom {
+  background-position: left bottom !important;
+}
+.bg-center-top {
+  background-position: center top !important;
+}
+.bg-center {
+  background-position: center center !important;
+}
+.bg-center-bottom {
+  background-position: center bottom !important;
+}
+.bg-right-top {
+  background-position: right top !important;
+}
+.bg-right {
+  background-position: right center !important;
+}
+.bg-right-bottom {
+  background-position: right bottom !important;
+}
+.bg-repeat {
+  background-repeat: repeat !important;
+}
+.bg-repeat-x {
+  background-repeat: repeat-x !important;
+}
+.bg-repeat-y {
+  background-repeat: repeat-y !important;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat !important;
+}
+.bg-cover {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.btn-white {
+  background: linear-gradient(0deg, #EDEDED 0%, #FEFEFE 100%) !important;
+}
+.btn-white:hover {
+  background: linear-gradient(0deg, #FEFEFE 0%, #EDEDED 100%) !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  background-color: #EFEFEF !important;
+}
+.navbar-dark .custom-toggler:focus,
+.navbar-dark .custom-toggler:active {
+  background-color: #27232D !important;
+}
+a.dropdown-item:hover {
+  background-color: $master !important;
+}
+a.dropdown-item:active {
+  background-color: $primary !important;
+}
+::selection {
+  background: rgba(97, 53, 131, 1) !important;
+}
+img::selection {
+  background: rgba(97, 53, 131, 0.5) !important;
+}

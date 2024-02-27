@@ -1,0 +1,82 @@
+$placeholder: #A1A1A1;
+@mixin text-primary() {
+  color: $primary;
+}
+@mixin text-secondary() {
+  color: $secondary;
+}
+@mixin text-success() {
+  color: $success;
+}
+@mixin text-info() {
+  color: $info;
+}
+@mixin text-warning() {
+  color: $warning;
+}
+@mixin text-danger() {
+  color: $danger;
+}
+@mixin text-transparent() {
+  color: transparent;
+}
+.text-regular {
+  color: #191A20 !important;
+}
+.text-medium {
+  color: #E5E4DD !important;
+}
+.text-master,
+.link-master:hover {
+  color: #613583 !important;
+}
+.text-second {
+  color: #F4813F !important;
+}
+.text-tertiary {
+  color: #44425E !important;
+}
+.text-gray {
+  color: gray !important;
+}
+.text-yellow {
+  color: #FFC107 !important;
+}
+.text-orange {
+  color: orange !important;
+}
+.text-red {
+  color: red !important;
+}
+.text-green {
+  color: green !important;
+}
+.text-blue {
+  color: blue !important;
+}
+a.dropdown-item:hover {
+  color: #FFFFFF !important;
+}
+::selection {
+  color: #FFFFFF !important;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $placeholder !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $placeholder !important;
+  opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $placeholder !important;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $placeholder !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $placeholder !important;
+}
+::placeholder { /* Most modern browsers support this now. */
+  color: $placeholder !important;
+}

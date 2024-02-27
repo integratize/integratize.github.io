@@ -1,0 +1,30 @@
+@mixin box-shadow($str) {
+  box-shadow: #{$str}; 
+}
+nav a,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.outline-none {
+  outline: none !important;
+}
+.box-shadow-none {
+  box-shadow: none !important;
+}
+.decoration-none:hover,
+.decoration-none:active,
+.decoration-none:focus {
+  text-decoration: none !important;
+}
+.decoration-underline:hover,
+.decoration-underline:active,
+.decoration-underline:focus {
+  text-decoration: underline !important;
+}
+.accordion-button:focus {
+  border-color: rgba(0, 0, 0, .125);
+}

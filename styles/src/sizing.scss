@@ -1,0 +1,11 @@
+.vh-cover {
+  height: calc(100vh - 56px) !important;
+}
+$utilities: map-merge(
+  $utilities, (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      ( responsive: true ),
+    ),
+  )
+);
