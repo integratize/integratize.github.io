@@ -41,9 +41,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .bg-footer {
   background-image: url("#{$path}/footer.svg");
 }
-.bg-sheets {
-  background-image: url("#{$path}/sheets.png");
-}
 .bg-grid {
   background-image: url("#{$path}/grid.png");
 }
