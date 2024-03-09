@@ -3,6 +3,7 @@ $_light: rgb(255,255,255);
 $_dark: rgb(0,0,0);
 $dark: #1F1C24;
 $primary: #5A23C8;
+$secondary: #675C79;
 $info: #0D6EFD;
 $warning: #D1872E;
 $danger: #731A4E;
@@ -10,8 +11,7 @@ $master: #513D7D;
 $custom-colors: (
   "master": $master,
   "medium": #F0F2F5,
-  "regular": #3D3846,
-  "tertiary": #675c79
+  "regular": #3D3846
 );
 $theme-colors: (
   "primary":    $primary,
