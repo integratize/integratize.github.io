@@ -105,6 +105,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .btn-white:hover {
   background: linear-gradient(0deg, #FEFEFE 0%, #EDEDED 100%) !important;
 }
+.is-invalid {
+  border-color: #DC3545 !important;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
