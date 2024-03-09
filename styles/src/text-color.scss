@@ -1,4 +1,4 @@
-$placeholder: #A1A1A1;
+$placeholder: #A69FAC;
 @mixin text-primary() {
   color: $primary;
 }
@@ -20,39 +20,9 @@ $placeholder: #A1A1A1;
 @mixin text-transparent() {
   color: transparent;
 }
-.text-regular {
-  color: #675C79 !important;
-}
-.text-medium {
-  color: #E5E4DD !important;
-}
 .text-master,
 .link-master:hover {
   color: #4A277E !important;
-}
-.text-second {
-  color: #F4813F !important;
-}
-.text-tertiary {
-  color: #44425E !important;
-}
-.text-gray {
-  color: gray !important;
-}
-.text-yellow {
-  color: #FFC107 !important;
-}
-.text-orange {
-  color: orange !important;
-}
-.text-red {
-  color: red !important;
-}
-.text-green {
-  color: green !important;
-}
-.text-blue {
-  color: blue !important;
 }
 a.dropdown-item:hover {
   color: #FFFFFF !important;
