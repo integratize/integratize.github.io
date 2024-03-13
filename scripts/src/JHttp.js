@@ -8,12 +8,6 @@ class JHttp {
     /**
      * Class constructor
      *
-     * Assign ajax via CSS class:
-     *
-     * <a class="ajax" href="/route" data-ajax-return="my_function">Link</a>
-     *
-     * <form class="ajax" action="/route" data-ajax-return="my_function"></form>
-     *
      * function my_function(error, response) {
      *     if (!error) {
      *         console.log(response.data);
@@ -21,6 +15,9 @@ class JHttp {
      *         console.log(response.data);
      *     }
      * }
+     *
+     * <a class="ajax" href="/route" data-ajax-return="my_function">Link</a>
+     * <form class="ajax" action="/route" data-ajax-return="my_function"></form>
      *
      * @access public
      */
@@ -55,7 +52,7 @@ class JHttp {
     }
 
     /**
-     * HTTP request via GET.
+     * HTTP request - GET | POST
      *
      * ajax("/my/route/here", (error, response) => {
      *     if (!error) {
